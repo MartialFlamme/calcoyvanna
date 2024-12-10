@@ -1,0 +1,19 @@
+{
+    "name": "calculatrice",
+    "version": "1.0.0",
+    "description": "Une calculatrice simple utilisant TypeScript, HTML, et CSS.",
+    "main": "dist/index.js",
+    "scripts": {
+      "start": "lite-server",           
+      "build": "tsc",                   
+      "watch": "tsc --watch",          
+      "serve": "lite-server"           
+    },
+    "author": "TAKOU",
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^5.0.0",          
+      "lite-server": "^2.6.1"       
+    }
+  }
+  
